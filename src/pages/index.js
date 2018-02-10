@@ -85,7 +85,7 @@ class HomeIndex extends React.Component {
                         <title>{siteTitle}</title>
                         <meta name="description" content={siteDescription} />
                         <link rel="icon" type="image/png" sizes="16x15" href="/favicon.png" />
-                        <link rel="image_src" src="/diddirif.jpg" />
+                        <link rel="image_src" href="/diddirif.jpg" />
                 </Helmet>
 
                 <div id="main">
