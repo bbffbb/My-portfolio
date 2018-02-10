@@ -23,9 +23,10 @@ class Skills extends React.Component {
                     <ul className="actions">
                         <li><strong><u>Other programming languages</u></strong></li>
                         <li>C#</li>
+                        <li>C</li>
                         <li>Java</li>
                         <li>C++</li>
-                        <li>Python</li>
+                        <li>Python <a href="https://www.djangoproject.com/">(Django)</a></li>
                     </ul>
                     <ul className="actions">
                         <li><strong><u>Databases</u></strong></li>
@@ -35,9 +36,35 @@ class Skills extends React.Component {
                     
                     <ul className="actions">
                         <li><strong><u>Web frameworks</u></strong></li>
-                        <li>.NET CORE</li>
-                        <li>Asp.net MVC</li>
+                        <li><a href="https://www.microsoft.com/net/learn/get-started/windows">.NET CORE</a></li>
+                        <li><a href="https://www.asp.net/">Asp.net MVC</a></li>
                     </ul>
+
+                    <ul className="actions">
+                        <li><strong><u>CI and CD tools</u></strong></li>
+                        <li><a href="https://www.heroku.com/">Heroku</a></li>
+                        <li><a href="https://travis-ci.org/">Travis</a></li>
+                        <li><a href="https://jenkins.io/">Jenkins</a></li>
+                    </ul>
+
+                    <ul className="actions">
+                        <li><strong><u>Services</u></strong></li>
+                        <li><a href="https://www.docker.com/">Docker</a></li>
+                        <li><a href="https://aws.amazon.com/">AWS</a></li>
+                    </ul>   
+
+                    <ul className="actions">
+                        <li><strong><u>Other</u></strong></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Microsoft_Dynamics_NAV">Microsoft Dynamics NAV</a></li>
+                        <li>Microsoft Office</li>
+                        <li>Windows</li>
+                        <li>MacOS</li>
+                        <li>Github/Gitlab</li>
+
+
+
+                    </ul>   
+
                     <ul className="icons">
                         <li><Link to="/" className="icon fa-arrow-left"> Home</Link></li>
                     </ul>
