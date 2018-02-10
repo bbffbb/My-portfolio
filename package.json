@@ -17,8 +17,11 @@
     "gatsby-transformer-remark": "^1.7.25",
     "gatsby-transformer-sharp": "^1.6.16",
     "lodash": "^4.17.4",
+    "nodemailer": "^4.4.2",
     "react-images": "^0.5.14",
-    "react-vertical-timeline-component": "^2.0.5"
+    "react-vertical-timeline-component": "^2.0.5",
+    "body-parser": "^1.4.3",
+    "express": "^4.4.5"
   },
   "homepage": "",
   "keywords": [
