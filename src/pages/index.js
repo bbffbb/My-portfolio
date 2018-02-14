@@ -85,7 +85,6 @@ class HomeIndex extends React.Component {
                         <link rel="icon" type="image/png" sizes="16x15" href="/favicon.png" />
                 </Helmet>
                 <div id="main">
-
                     <section id="one">
                         <header className="major">
                             <h2>About me.</h2>
