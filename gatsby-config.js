@@ -6,6 +6,7 @@ module.exports = {
   },
   pathPrefix: '/',
   plugins: [
+    /*
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -16,6 +17,7 @@ module.exports = {
         anonymize: true,
       },
     },
+    */
     {
       resolve: `gatsby-source-filesystem`,
       options: {

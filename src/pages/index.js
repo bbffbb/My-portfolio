@@ -2,6 +2,11 @@ import React from 'react'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
+
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-114145402-1');
+
+
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
@@ -84,7 +89,6 @@ class HomeIndex extends React.Component {
                         <title>{siteTitle}</title>
                         <meta name="description" content={siteDescription} />
                         <link rel="icon" type="image/png" sizes="16x15" href="/favicon.png" />
-                        <link rel="image_src" href="/diddirif.jpg" />
                 </Helmet>
 
                 <div id="main">
