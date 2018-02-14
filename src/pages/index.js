@@ -78,7 +78,12 @@ class HomeIndex extends React.Component {
 
         this.gotoNext();
     }
-
+    linkTrack() {
+        ReactGA.event({
+            category: 'Navigation',
+            action: 'Clicked Link',
+        });     
+    }
     render() {
         const siteTitle = this.props.data.site.siteMetadata.title
         const siteDescription = this.props.data.site.siteMetadata.description
@@ -99,7 +104,7 @@ class HomeIndex extends React.Component {
                         </header>
                         <p>I'm born and raised in a small fishing village called Rif which is located in Snæfellsbær on the west coast of Iceland. I went to seek my interest in the fisheries at young age, when suddenly i found the urge to follow another dream and it was to learn how to program.<br /><br />I'm now a Computer Science student, currently studying at University of Reykjavík. I'm taking my first steps into the programming industry where my main interests are web development and design.</p>
                         <ul className="actions">
-                            <li><Link to="/skills"> Skills </Link></li>
+                            <li onClick={()=>{this.linkTrack()}}><Link to="/skills"> Skills </Link></li>
                             <li><Link to="/education"> Education </Link></li>
                             <li><Link to="/career"> Work carreer </Link></li>
                         </ul>
