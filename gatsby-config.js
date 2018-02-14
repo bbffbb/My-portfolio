@@ -12,7 +12,7 @@ module.exports = {
         id: "GTM-MXN9G3K",
         // Include GTM in development.
         // Defaults to false meaning GTM will only be loaded in production.
-        includeInDevelopment: false,
+        includeInDevelopment: true,
       },
     },
     {
