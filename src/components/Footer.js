@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactGA from 'react-ga';
 
 class Footer extends React.Component {
     render() {

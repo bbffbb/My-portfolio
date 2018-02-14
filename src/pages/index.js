@@ -2,14 +2,8 @@ import React from 'react';
 import Link from 'gatsby-link';
 import get from 'lodash/get';
 import Helmet from 'react-helmet';
-
-import ReactGA from 'react-ga';
-ReactGA.initialize('UA-114145402-1');
-
-
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
-
 import thumb01 from '../assets/images/thumbs/01.jpg'
 import thumb02 from '../assets/images/thumbs/02.jpg'
 import thumb03 from '../assets/images/thumbs/03.jpg'
@@ -78,13 +72,7 @@ class HomeIndex extends React.Component {
 
         this.gotoNext();
     }
-    linkTrack() {
-        ReactGA.event({
-            category: 'Navigation',
-            action: 'Clicked Link',
-        });     
-        console.log("linktrack");
-    }
+    
     render() {
         const siteTitle = this.props.data.site.siteMetadata.title
         const siteDescription = this.props.data.site.siteMetadata.description
@@ -105,7 +93,6 @@ class HomeIndex extends React.Component {
                         </header>
                         <p>I'm born and raised in a small fishing village called Rif which is located in Snæfellsbær on the west coast of Iceland. I went to seek my interest in the fisheries at young age, when suddenly i found the urge to follow another dream and it was to learn how to program.<br /><br />I'm now a Computer Science student, currently studying at University of Reykjavík. I'm taking my first steps into the programming industry where my main interests are web development and design.</p>
                         <ul className="actions">
-                            {/*<li onClick={this.linkTrack}><Link to="/skills"> Skills </Link></li>*/}
                             <li><Link to="/skills"> Skills </Link></li>
                             <li><Link to="/education"> Education </Link></li>
                             <li><Link to="/career"> Work carreer </Link></li>
