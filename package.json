@@ -4,6 +4,8 @@
   "version": "1.0.0",
   "author": "Birkir Freyr Baldursson",
   "dependencies": {
+    "body-parser": "^1.4.3",
+    "express": "^4.4.5",
     "gatsby": "^1.9.146",
     "gatsby-image": "^1.0.31",
     "gatsby-link": "^1.6.32",
@@ -18,10 +20,9 @@
     "gatsby-transformer-sharp": "^1.6.16",
     "lodash": "^4.17.4",
     "nodemailer": "^4.4.2",
+    "react-ga": "^2.4.1",
     "react-images": "^0.5.14",
-    "react-vertical-timeline-component": "^2.0.5",
-    "body-parser": "^1.4.3",
-    "express": "^4.4.5"
+    "react-vertical-timeline-component": "^2.0.5"
   },
   "homepage": "",
   "keywords": [

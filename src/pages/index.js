@@ -2,7 +2,9 @@ import React from 'react'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
-
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-114145402-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
