@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Birkir Freyr",
     author: "Birkir Freyr Baldursson",
-    description: "My online portfolio"
+    description: "Web developer"
   },
   pathPrefix: '/',
   plugins: [
