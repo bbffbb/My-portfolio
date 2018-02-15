@@ -93,7 +93,7 @@ class HomeIndex extends React.Component {
                         <ul className="actions">
                             <li><Link to="/skills"> Skills </Link></li>
                             <li><Link to="/education"> Education </Link></li>
-                            <li><Link to="/career"> Work carreer </Link></li>
+                            <li><Link to="/career"> Work career </Link></li>
                         </ul>
                     </section>
                     {/*
