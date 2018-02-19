@@ -72,7 +72,7 @@ class HomeIndex extends React.Component {
 
         this.gotoNext();
     }
-    
+
     render() {
         const siteTitle = this.props.data.site.siteMetadata.title
         const siteDescription = this.props.data.site.siteMetadata.description

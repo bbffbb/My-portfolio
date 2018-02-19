@@ -21,8 +21,10 @@
     "gatsby-transformer-sharp": "^1.6.16",
     "lodash": "^4.17.4",
     "nodemailer": "^4.4.2",
+    "rc-animate": "^2.4.4",
     "react-ga": "^2.4.1",
     "react-images": "^0.5.14",
+    "react-transition-group": "^2.2.1",
     "react-vertical-timeline-component": "^2.0.5"
   },
   "homepage": "",

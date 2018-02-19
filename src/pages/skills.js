@@ -59,6 +59,7 @@ class Skills extends React.Component {
                         <li>Microsoft Office</li>
                         <li>Windows</li>
                         <li>MacOS</li>
+                        <li>Ubuntu</li>
                         <li>Github/Gitlab</li>
 
 
