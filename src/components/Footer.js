@@ -13,6 +13,9 @@ class Footer extends React.Component {
                         <li><a href="https://twitter.com/birkirfr" className="icon fa-twitter" target="_blank"><span className="label">Twitter</span></a></li>
                         <li><a href="https://github.com/bbffbb" className="icon fa-github" target="_blank"><span className="label">Github</span></a></li>
                     </ul>
+                    <ul className="copyright">
+                        <li>Made by Birkir Freyr</li>
+                    </ul>
                 </div>
             </div>
         )

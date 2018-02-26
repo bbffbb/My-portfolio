@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import get from 'lodash/get';
 import Helmet from 'react-helmet';
+
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 import thumb01 from '../assets/images/thumbs/01.jpg'
@@ -44,6 +45,7 @@ class HomeIndex extends React.Component {
         this.handleClickImage = this.handleClickImage.bind(this);
     }
 
+   
     openLightbox (index, event) {
         event.preventDefault();
         this.setState({
@@ -85,6 +87,7 @@ class HomeIndex extends React.Component {
                         <link rel="icon" type="image/png" sizes="16x15" href="/favicon.png" />
                 </Helmet>
                 <div id="main">
+                    
                     <section id="one">
                         <header className="major">
                             <h2>About me.</h2>
