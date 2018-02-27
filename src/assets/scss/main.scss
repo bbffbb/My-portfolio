@@ -987,6 +987,12 @@
 		}
 	}
 
+	#responsiveImg {
+		img {
+			width: 20%;
+			height: auto;
+		}
+	}	
 /* Main */
 
 	#main {
@@ -994,7 +1000,8 @@
 		max-width: 50em + $size-header-pad;
 		padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
 		width: calc(100% - #{$size-header-width});
-
+		
+		
 		> section {
 			border-top: solid 2px _palette(border);
 			margin: $size-header-pad 0 0 0;
@@ -1006,6 +1013,8 @@
 				padding-top: 0;
 			}
 		}
+
+		
 	}
 
 /* Poptrox */

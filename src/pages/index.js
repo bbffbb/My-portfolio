@@ -73,14 +73,7 @@ class HomeIndex extends React.Component {
         if (this.state.currentImage === this.props.images.length - 1) return;
 
         this.gotoNext();
-    }
-
-    handleSubmit () {
-        alert("Message sent");
-    }
-    
-
-    
+    } 
 
     render() {
         const siteTitle = this.props.data.site.siteMetadata.title
@@ -128,7 +121,7 @@ class HomeIndex extends React.Component {
                             <p>If you think you've got a job for me or have something awesome to tell me please send me a message and i'll reply as soon as possible.</p>
                             <div className="row">
                                 <div className="8u 12u$(small)">
-                                <form name="contact" method="POST" data-netlify="true" action="/" onSubmit={this.handleSubmit}>
+                                <form name="contact" method="POST" data-netlify="true" action="/success" >
                                     <div className="row uniform 50%">
                                             <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
                                             <div className="6u 12u$(xsmall)">
