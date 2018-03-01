@@ -91,12 +91,13 @@ class HomeIndex extends React.Component {
                     <section id="one">
                         <header className="major">
                             <ul className="actions">
-                                <li><h2 style={{color: "#49bf9d"}}><Link to="/">About me</Link></h2></li>
+                                <li><h2 style={{color: "#1D13D1"}}><Link to="/">About me</Link></h2></li>
                                 <li><h4><Link to="/skills">Skills</Link></h4></li>
                                 <li><h4><Link to="/education">Education</Link></h4></li>
+                                <li><h4><Link to="/career">Work</Link></h4></li>
                             </ul>
                         </header>
-                        <p>I'm born and raised in a small fishing village called Rif which is located in Snæfellsbær on the west coast of Iceland. I went to seek my interest in the fisheries at young age, when suddenly i found the urge to follow another dream and it was to learn how to program.<br /><br />I'm now a Computer Science student, currently studying at University of Reykjavík. I'm taking my first steps into the programming industry where my main interests are web development and design.</p>
+                        <p>I'm born and raised in the fishing village Rif which is located in Snæfellsbær on the west coast of Iceland. I went to seek my interest in the fisheries at young age, when suddenly i found the urge to follow another dream and it was to learn how to program.<br /><br />I'm now a Computer Science student, currently studying at University of Reykjavík. I'm taking my first steps into the programming industry where my main interests are web development and design.</p>
                     </section>
                     {/*
                     <section id="two">

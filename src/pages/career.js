@@ -8,7 +8,12 @@ class Career extends React.Component {
         return (
             <div id="main">
                     <header className="major">
-                        <h2>Work career</h2>
+                        <ul className="actions">
+                            <li><h4><Link to="/">About me</Link></h4></li>
+                            <li><h4><Link to="/skills">Skills</Link></h4></li>
+                            <li><h4><Link to="/education">Education</Link></h4></li>
+                            <li><h2 style={{color: "#1D13D1"}}><Link to="/career">Work</Link></h2></li>
+                        </ul>
                     </header>
                     <VerticalTimeline>
                         <VerticalTimelineElement

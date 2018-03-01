@@ -9,15 +9,16 @@ class Education extends React.Component {
             <div id="main">
                     <header className="major">
                         <ul className="actions">
-                            <li><h3><Link to="/">About me</Link></h3></li>
-                            <li><h3><Link to="/skills">Skills</Link></h3></li>
-                            <li><h2 style={{color: "#49bf9d"}}><Link to="/education">Education</Link></h2></li>
+                            <li><h4><Link to="/">About me</Link></h4></li>
+                            <li><h4><Link to="/skills">Skills</Link></h4></li>
+                            <li><h2 style={{color: "#1D13D1"}}><Link to="/education">Education</Link></h2></li>
+                            <li><h4><Link to="/career">Work</Link></h4></li>
                         </ul>
                     </header>
                     <VerticalTimeline>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            iconStyle={{ background: '#49bf9d', color: '#fff' }}
+                            iconStyle={{ background: '#1D13D1', color: '#fff' }}
                         >
                             <h3 className="vertical-timeline-element-title">Computer Science</h3>
                             <h5 className="vertical-timeline-element-subtitle">University of Reykjavík</h5>
@@ -26,7 +27,7 @@ class Education extends React.Component {
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            iconStyle={{ background: '#49bf9d', color: '#fff' }}
+                            iconStyle={{ background: '#1D13D1', color: '#fff' }}
                         >
                             <h3 className="vertical-timeline-element-title">Pre-studies/Mathematics</h3>
                             <h5 className="vertical-timeline-element-subtitle">University of Reykjavík</h5>
@@ -35,7 +36,7 @@ class Education extends React.Component {
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            iconStyle={{ background: '#49bf9d', color: '#fff' }}
+                            iconStyle={{ background: '#1D13D1', color: '#fff' }}
                         >
                             <h3 className="vertical-timeline-element-title">Marine engineer</h3>
                             <h5 className="vertical-timeline-element-subtitle">Industrial School</h5>
@@ -44,7 +45,7 @@ class Education extends React.Component {
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            iconStyle={{ background: '#49bf9d', color: '#fff' }}
+                            iconStyle={{ background: '#1D13D1', color: '#fff' }}
                         >
                             <h3 className="vertical-timeline-element-title">Naval rights / Captain license</h3>
                             <h5 className="vertical-timeline-element-subtitle">Industrial School</h5>
