@@ -7,8 +7,13 @@ class Skills extends React.Component {
             <div id="main">
                 <section id="one">
                     <header className="major">
-                        <h2>Skills</h2>
+                        <ul className="actions">
+                            <li><h3><Link to="/">About me</Link></h3></li>
+                            <li><h2><Link to="/skills">Skills</Link></h2></li>
+                            <li><h3><Link to="/education">Education</Link></h3></li>
+                        </ul>
                     </header>
+                    
                     <p>I've got a few tools to work with when programming but i've focused on web development and found out that i like JavaScript frameworks alot. User experience and usability is my main priority alongside a beautiful design. </p>                       
                     <ul className="actions">
                         <li><strong><u>JavaScript</u></strong></li>
@@ -66,9 +71,7 @@ class Skills extends React.Component {
 
                     </ul>   
 
-                    <ul className="icons">
-                        <li><Link to="/" className="icon fa-arrow-left"> Home</Link></li>
-                    </ul>
+            
                   
                 </section>
             </div>

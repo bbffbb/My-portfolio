@@ -90,14 +90,13 @@ class HomeIndex extends React.Component {
                     
                     <section id="one">
                         <header className="major">
-                            <h2>About me.</h2>
+                            <ul className="actions">
+                                <li><h2><Link to="/">About me</Link></h2></li>
+                                <li><h4><Link to="/skills">Skills</Link></h4></li>
+                                <li><h4><Link to="/education">Education</Link></h4></li>
+                            </ul>
                         </header>
                         <p>I'm born and raised in a small fishing village called Rif which is located in Snæfellsbær on the west coast of Iceland. I went to seek my interest in the fisheries at young age, when suddenly i found the urge to follow another dream and it was to learn how to program.<br /><br />I'm now a Computer Science student, currently studying at University of Reykjavík. I'm taking my first steps into the programming industry where my main interests are web development and design.</p>
-                        <ul className="actions">
-                            <li><Link to="/skills"> Skills </Link></li>
-                            <li><Link to="/education"> Education </Link></li>
-                            <li><Link to="/career"> Work career </Link></li>
-                        </ul>
                     </section>
                     {/*
                     <section id="two">
@@ -121,22 +120,21 @@ class HomeIndex extends React.Component {
                             <p>If you think you've got a job for me or have something awesome to tell me please send me a message and i'll reply as soon as possible.</p>
                             <div className="row">
                                 <div className="8u 12u$(small)">
-                                <form name="contact" method="POST" data-netlify="true" action="/success" >
-                                    <div className="row uniform 50%">
-                                            <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
-                                            <div className="6u 12u$(xsmall)">
-                                                <input type="email" name="email" id="email" placeholder="Your email"></input>
+                                    <form name="contact" method="POST" data-netlify="true" action="/success" >
+                                        <div className="row uniform 50%">
+                                                <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
+                                                <div className="6u 12u$(xsmall)">
+                                                    <input type="email" name="email" id="email" placeholder="Your email"></input>
+                                                </div>
+                                                <div className="12u">
+                                                    <textarea name="message" id="message" placeholder="Your message" rows="4"></textarea>
+                                                </div>
                                             </div>
-                                            <div className="12u">
-                                                <textarea name="message" id="message" placeholder="Your message" rows="4"></textarea>
-                                            </div>
-                                        </div>
-                                        <ul className="actions">
-                                            <li><input type="submit" value="Send"/></li>
-                                        </ul>   
-                                        <div data-netlify-recaptcha></div>
-                                </form>
-                                
+                                            <ul className="actions">
+                                                <li><input type="submit" value="Send"/></li>
+                                            </ul>   
+                                            <div data-netlify-recaptcha></div>
+                                    </form>
                                 </div>
                                 <div className="4u 12u$(small)">
                                     <ul className="labeled-icons">

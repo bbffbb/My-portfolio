@@ -8,7 +8,11 @@ class Education extends React.Component {
         return (
             <div id="main">
                     <header className="major">
-                        <h2>Education</h2>
+                        <ul className="actions">
+                            <li><h3><Link to="/">About me</Link></h3></li>
+                            <li><h3><Link to="/skills">Skills</Link></h3></li>
+                            <li><h2><Link to="/education">Education</Link></h2></li>
+                        </ul>
                     </header>
                     <VerticalTimeline>
                         <VerticalTimelineElement
@@ -48,9 +52,7 @@ class Education extends React.Component {
                             <p> Licence to control fishing ships with a maximum length of 12 meters. Courses about crafts or hardware on board, sailing rules, map calculations and history.</p>
                         </VerticalTimelineElement>
                     </VerticalTimeline>
-                    <ul className="icons">
-                        <li><Link to="/" className="icon fa-arrow-left"> Home</Link></li>
-                    </ul>
+               
             </div>
         )
     }
