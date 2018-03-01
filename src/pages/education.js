@@ -11,7 +11,7 @@ class Education extends React.Component {
                         <ul className="actions">
                             <li><h3><Link to="/">About me</Link></h3></li>
                             <li><h3><Link to="/skills">Skills</Link></h3></li>
-                            <li><h2><Link to="/education">Education</Link></h2></li>
+                            <li><h2 style={{color: "#49bf9d"}}><Link to="/education">Education</Link></h2></li>
                         </ul>
                     </header>
                     <VerticalTimeline>

@@ -91,7 +91,7 @@ class HomeIndex extends React.Component {
                     <section id="one">
                         <header className="major">
                             <ul className="actions">
-                                <li><h2><Link to="/">About me</Link></h2></li>
+                                <li><h2 style={{color: "#49bf9d"}}><Link to="/">About me</Link></h2></li>
                                 <li><h4><Link to="/skills">Skills</Link></h4></li>
                                 <li><h4><Link to="/education">Education</Link></h4></li>
                             </ul>
