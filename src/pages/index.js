@@ -117,7 +117,7 @@ class HomeIndex extends React.Component {
                     */}
                  
                     <section id="three">
-                            <h2>Get In Touch</h2>
+                            <h2>Get in touch</h2>
                             <p>If you think you've got a job for me or have something awesome to tell me please send me a message and i'll reply as soon as possible.</p>
                             <div className="row">
                                 <div className="8u 12u$(small)">

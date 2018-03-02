@@ -15,6 +15,8 @@ class Career extends React.Component {
                             <li><h2 style={{color: "#1D13D1"}}><Link to="/career">Work</Link></h2></li>
                         </ul>
                     </header>
+                    
+                
                     <VerticalTimeline>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
@@ -44,9 +46,7 @@ class Career extends React.Component {
                             <p>Worked in the call center as a sales consultant, selling their telecommunicative services. From this job i gained a lot of knowledge of telecommunicating services, experience and training in solving problems in both technical and accounting area. I also improved my communicating skills</p>
                         </VerticalTimelineElement>
                     </VerticalTimeline>
-                    <ul className="icons">
-                        <li><Link to="/" className="icon fa-arrow-left"> Home</Link></li>
-                    </ul>
+           
             </div>
         )
     }
